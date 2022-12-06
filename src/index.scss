@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.main {
+  height: 80vh;
+  width: 100%;
+  //background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: auto;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(166, 166, 166);
+  margin: 10px;
+  margin-top: 5%;
+}
+.name-league {
+  height: 50px;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    list-style: none;
+    width: 100%;
+  }
+
+  li {
+    height: 50px;
+    width: 80%;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .img-team {
+      width: 30%;
+      img {
+        border-radius: 20px;
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .name-team {
+      width: 50%;
+      span {
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+}
+
+// add responsive for mobile for main margin-top!
+
